@@ -1,5 +1,5 @@
 let thisScore = localStorage.getItem("score");
-document.querySelector("#scoreDiv").innerHTML = `SCORE : ${thisScore}`;
+document.querySelector("#scoreDiv").innerHTML = `SCORE : ${thisScore}/12`;
 
 if (thisScore < 4) {
   window.onload = function() {

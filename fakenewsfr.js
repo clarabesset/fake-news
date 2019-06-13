@@ -44,7 +44,7 @@ axios
 
       function checkFake() {
         turn++;
-        if (turn > 12) goEnd();
+        if (turn > 11) goEnd();
         if (newsFr[randomIndex].fakeornot === true) {
           score++;
           document.getElementById("test").classList.add("green");
@@ -56,7 +56,6 @@ axios
             "Oui bon gros fake".italics() +
             "</a>";
         } else {
-          console.log("you clicked true");
           document.getElementById("test").classList.add("red");
           document.getElementById("test").classList.remove("green");
           document.getElementById("test").innerHTML =
@@ -78,12 +77,14 @@ axios
     }
 
     function goEnd() {
-      localStorage.setItem("score", score);
-      window.location.href = "endgame.html";
+      setTimeout(() => {
+        localStorage.setItem("score", score);
+        window.location.href = "endgame.html";
+      }, 3000);
     }
 
-    if (turn > 11) {
-      goEnd();
+    if (turn > 12) {
+      goEnd;
     } else {
       nextGame();
     }
@@ -95,11 +96,3 @@ axios
 
 document.getElementById("scoreDiv").innerHTML = `SCORE : ${score}`;
 document.getElementById("turnDiv").innerHTML = `${turn}/12`;
-
-function endResult() {
-  if (score <= 4) {
-    document.getElementById("test").innerHTML = ` " ${randomTitle} " `;
-  } else if (score <= 8) {
-  } else if (score <= 12) {
-  }
-}

@@ -44,7 +44,7 @@ axios
 
       function checkFake() {
         turn++;
-        if (turn > 12) goEnd();
+        if (turn > 11) goEnd();
         if (newsEng[randomIndex].fakeornot === true) {
           score++;
           document.getElementById("test").classList.add("green");
@@ -78,16 +78,19 @@ axios
     }
 
     function goEnd() {
-      localStorage.setItem("score", score);
-      window.location.href = "endgame.html";
+      setTimeout(() => {
+        localStorage.setItem("score", score);
+        window.location.href = "endgame.html";
+      }, 3000);
     }
 
     if (turn > 12) {
-      setTimeout(goEnd, 5000);
+      goEnd;
     } else {
       nextGame();
     }
   })
+
   .catch(err => {
     console.log(err);
   });
