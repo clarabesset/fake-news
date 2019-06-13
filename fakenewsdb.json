@@ -1,0 +1,738 @@
+[
+  {
+    "id": 1,
+    "fakeornot": true,
+    "headline": "Florida Millionaire Arrested After Authorities Discover Over 700 Bodies Buried In His Backyard",
+    "source": "Empire News",
+    "link": "https://empirenews.net/florida-millionaire-arrested-after-authorities-discover-over-700-bodies-buried-in-his-backyard/",
+    "language": "eng"
+  },
+  {
+    "id": 2,
+    "fakeornot": false,
+    "headline": "Il y a plus de médecins à Roland-Garros qu'aux urgences de l'hôpital d'à côté ",
+    "source": "La vraie démocratie",
+    "link": "https://www.liberation.fr/checknews/2019/06/07/y-a-t-il-plus-de-medecins-a-roland-garros-qu-aux-urgences-de-l-hopital-d-a-cote_1732033",
+    "language": "fr"
+  },
+  {
+    "id": 3,
+    "fakeornot": true,
+    "headline": "Woody Will Be Openly Bisexual in ‘Toy Story 4'",
+    "source": "NPC Daily ",
+    "link": "http://archive.is/SZzQb",
+    "language": "eng"
+  },
+  {
+    "id": 4,
+    "fakeornot": true,
+    "headline": "The Queen Call President Trump an ‘Amazing Person’ with a ‘Good Heart’",
+    "source": "Facebook",
+    "link": "http://archive.is/SQNJ2",
+    "language": "eng"
+  },
+  {
+    "id": 5,
+    "fakeornot": true,
+    "headline": "Woman Gave Birth to 17 Children at Once",
+    "source": "Facebook",
+    "link": "http://archive.is/RVRzL",
+    "language": "eng"
+  },
+  {
+    "id": 6,
+    "fakeornot": false,
+    "headline": "Alabama Mayor Mark Chambers Called for Killing LGBTQ People",
+    "source": "WSFA (radio)",
+    "link": "https://www.wsfa.com/2019/06/04/carbon-hill-mayor-defends-social-media-comments-killing-homosexuals-transgender-people-democrats/",
+    "language": "eng"
+  },
+  {
+    "id": 7,
+    "fakeornot": true,
+    "headline": "‘Winnie-the-Pooh’ Characters were Created to Represent Different Mental Disorders",
+    "source": "Twitter",
+    "link": "https://twitter.com/baileysbesson/status/1028450301978832896",
+    "language": "eng"
+  },
+  {
+    "id": 8,
+    "fakeornot": true,
+    "headline": "Protests Seek to #EndFathersDay",
+    "source": "Twitter",
+    "link": "https://www.snopes.com/tachyon/2016/03/end-fathers-day.jpg",
+    "language": "eng"
+  },
+  {
+    "id": 9,
+    "fakeornot": false,
+    "headline": "L'idée selon laquelle le petit déjeuner est le repas le plus important vient-elle d'un lobby ?",
+    "source": "Libération",
+    "link": "https://www.liberation.fr/checknews/2019/06/09/l-idee-selon-laquelle-le-petit-dejeuner-est-le-repas-le-plus-important-vient-elle-d-un-lobby_1731563",
+    "language": "fr"
+  },
+  {
+    "id": 10,
+    "fakeornot": true,
+    "headline": "Une jeune néerlandaise a été 'euthanasiée' à 17 ans",
+    "source": "Paris Match",
+    "link": "https://www.parismatch.com/Actu/Faits-divers/Face-a-une-vie-qu-elle-ne-supportait-plus-Noa-17-ans-a-choisi-l-euthanasie-1628539",
+    "language": "fr"
+  },
+  {
+    "id": 11,
+    "fakeornot": false,
+    "headline": "Les Chinois endettés ont une sonnerie de téléphone spéciale pour les humilier en public ?",
+    "source": "Business Insider",
+    "link": "https://www.businessinsider.fr/en-chine-les-operateurs-telecom-attribuent-une-sonnerie-speciale-aux-mauvais-payeurs/",
+    "language": "fr"
+  },
+  {
+    "id": 12,
+    "fakeornot": true,
+    "headline": "Les détenus peuvent acheter de l'alcool en prison",
+    "source": "Fr",
+    "link": "https://web.archive.org/web/20190529102215/https://la1ere.francetvinfo.fr/cinq-jours-surveillants-ultramarins-bois-arcy-709999.html",
+    "language": "fr"
+  },
+  {
+    "id": 13,
+    "fakeornot": false,
+    "headline": "Le salaire moyen des footballeurs professionnels en France est 40 fois supérieur à celui des footballeuses.",
+    "source": "Libération",
+    "link": "https://www.liberation.fr/checknews/2019/06/06/quel-est-le-salaire-moyen-des-footballeuses-professionnelles-en-france_1731615",
+    "language": "fr"
+  },
+  {
+    "id": 14,
+    "fakeornot": false,
+    "headline": "Les bulletins de vote non utilisés sont-ils recyclés?",
+    "source": "Facebook",
+    "link": "https://www.facebook.com/photo.php?fbid=150308142689335&set=gm.833817970344631&type=3&theater&ifg=1",
+    "language": "fr"
+  },
+  {
+    "id": 15,
+    "fakeornot": true,
+    "headline": "Les glandes mammaires ressemblent à des fleurs roses",
+    "source": "Twitter",
+    "link": "https://www.20minutes.fr/sante/2505167-20190426-glandes-mammaires-ressemblent-elles-vraiment-fleurs",
+    "language": "fr"
+  },
+  {
+    "id": 16,
+    "fakeornot": false,
+    "headline": "Airbnb va proposer des 'voyages généalogiques' en fonction de votre ADN",
+    "source": "Sciences et avenir",
+    "link": "https://www.sciencesetavenir.fr/sante/airbnb-va-se-baser-sur-l-adn-pour-proposer-des-voyages_133912",
+    "language": "fr"
+  },
+  {
+    "id": 17,
+    "fakeornot": false,
+    "headline": "Aux Etats-Unis, un drone a livré un rein",
+    "source": "Sciences et avenir",
+    "link": "https://www.sciencesetavenir.fr/sante/aux-etats-unis-un-drone-a-livre-un-colis-precieux-un-rein_133380",
+    "language": "fr"
+  },
+  {
+    "id": 18,
+    "fakeornot": false,
+    "headline": "California will give health coverage to undocumented young adults",
+    "source": "SF Chronicle",
+    "link": "https://www.sfchronicle.com/politics/article/California-will-give-health-coverage-to-13964206.php",
+    "language": "eng"
+  },
+  {
+    "id": 19,
+    "fakeornot": false,
+    "headline": "Straight Pride parade will be organized in Boston ",
+    "source": "Business Insider",
+    "link": "http://www.superhappyfunamerica.com/parade/",
+    "language": "eng"
+  },
+  {
+    "id": 20,
+    "fakeornot": true,
+    "headline": "U.S. Women’s Soccer Team Handing Out Flyers To Advertise World Cup Tournament",
+    "source": "The Onion",
+    "link": "https://sports.theonion.com/u-s-women-s-soccer-team-handing-out-flyers-to-advertis-1835333319",
+    "language": "eng"
+  },
+  {
+    "id": 21,
+    "fakeornot": true,
+    "headline": "Il meurt juste après avoir acheté une Rolex à 50 ans",
+    "source": "Le Gorafi",
+    "link": "http://www.legorafi.fr/2019/01/21/il-meurt-juste-apres-avoir-achete-une-rolex-a-50-ans/",
+    "language": "fr"
+  },
+  {
+    "id": 22,
+    "fakeornot": true,
+    "headline": "Pays-Bas : il fabrique sa propre armure d’Iron Man et fête sa 7e année consécutive de chômage",
+    "source": "Le Gorafi",
+    "link": "http://www.legorafi.fr/2019/05/27/pays-bas-il-fabrique-sa-propre-armure-diron-man-et-fete-sa-7e-annee-consecutive-de-chomage/",
+    "language": "fr"
+  },
+  {
+    "id": 23,
+    "fakeornot": false,
+    "headline": "You Can Make a Fireworks Display From Cremated Remains",
+    "source": "Slate",
+    "link": "https://slate.com/culture/2019/05/memorial-fireworks-human-ashes-cremation-poms-movie.html",
+    "language": "eng"
+  },
+  {
+    "id": 24,
+    "fakeornot": true,
+    "headline": "Pollution – Des micro-plastiques déjà détectés à l’intérieur du trou noir M87*",
+    "source": "Le Gorafi",
+    "link": "http://www.legorafi.fr/2019/04/11/pollution-des-micro-plastiques-deja-detectes-a-linterieur-du-trou-noir-mr87/",
+    "language": "fr"
+  },
+  {
+    "id": 25,
+    "fakeornot": false,
+    "headline": "Woman wants to cut best friend out of her life after she 'stole' her baby name",
+    "source": "Mirror ",
+    "link": "https://www.mirror.co.uk/news/weird-news/woman-wants-cut-best-friend-16467368",
+    "language": "eng"
+  },
+  {
+    "id": 26,
+    "fakeornot": false,
+    "headline": "Guy tells girlfriend he's slept with her mum after shocking realisation on way to meet parents",
+    "source": "Mirror ",
+    "link": "https://www.mirror.co.uk/news/weird-news/guy-tells-girlfriend-hes-slept-16242721",
+    "language": "eng"
+  },
+  {
+    "id": 27,
+    "fakeornot": false,
+    "headline": "Shocked' mum who called daughter 'Khaleesi' has strong feelings over that name choice now",
+    "source": "Mirror ",
+    "link": "https://www.mirror.co.uk/news/weird-news/shocked-mum-who-called-daughter-15788815",
+    "language": "eng"
+  },
+  {
+    "id": 28,
+    "fakeornot": false,
+    "headline": "Woody allen s’autoproclame égérie masculine de #metoo\n",
+    "source": "VSD",
+    "link": "https://vsd.fr/les-indiscrets/24455-gonfle-woody-allen-sautoproclame-egerie-masculine-de-metoo-25636",
+    "language": "fr"
+  },
+  {
+    "id": 29,
+    "fakeornot": false,
+    "headline": "Elizabeth ii serait la lointaine descendante du prophète mahomet\n",
+    "source": "VSD",
+    "link": "https://vsd.fr/les-indiscrets/24413-insolite-elizabethii-serait-la-lointaine-descendante-du-prophete-25602",
+    "language": "fr"
+  },
+  {
+    "id": 30,
+    "fakeornot": true,
+    "headline": "Enfin ! La NASA accepte et confirme également l’existence d’OVNIs",
+    "source": "Stop mensonges",
+    "link": "https://stopmensonges.com/enfin-la-nasa-accepte-et-confirme-egalement-lexistence-dovnis/",
+    "language": "fr"
+  },
+  {
+    "id": 31,
+    "fakeornot": true,
+    "headline": "Doctor Who: Le nouveau docteur accueilli froidement par les fans",
+    "source": "NordPresse",
+    "link": "https://nordpresse.be/doctor-who-nouveau-docteur-accueilli-froidement-fans/",
+    "language": "fr"
+  },
+  {
+    "id": 32,
+    "fakeornot": true,
+    "headline": "Gilets jaunes : ces «faux» street medics qui prélèvent des organes sur des manifestants",
+    "source": "SecretNews",
+    "link": "http://secretnews.fr/2019/05/18/gilets-jaunes-faux-street-medics/",
+    "language": "fr"
+  },
+  {
+    "id": 33,
+    "fakeornot": true,
+    "headline": "Quand la gauche américaine préfère protéger les chatons que les bébés",
+    "source": "medias-presse",
+    "link": "https://www.medias-presse.info/quand-la-gauche-americaine-prefere-proteger-les-chatons-que-les-bebes/106301/",
+    "language": "fr"
+  },
+  {
+    "id": 34,
+    "fakeornot": true,
+    "headline": "Eminem Horrified Upon Being Informed That ‘Faggot’ Actually A Harmful Gay Slur",
+    "source": "The Onion",
+    "link": "https://entertainment.theonion.com/eminem-horrified-upon-being-informed-that-faggot-actu-1828750258",
+    "language": "eng"
+  },
+  {
+    "id": 35,
+    "fakeornot": true,
+    "headline": "Après le divorce d’Angelina Jolie et Brad Pitt, leurs enfants seront rapatriés dans leur pays d’origine",
+    "source": "Le Gorafi",
+    "link": "http://www.legorafi.fr/2016/09/21/apres-le-divorce-dangelina-jolie-et-brad-pitt-leurs-enfants-seront-rapatries-dans-leur-pays-dorigine/",
+    "language": "fr"
+  },
+  {
+    "id": 36,
+    "fakeornot": true,
+    "headline": "Are you slowly poisoning yourself with… rice?",
+    "source": "Naturalnews",
+    "link": "https://www.naturalnews.com/2019-06-07-are-you-slowly-poisoning-yourself-with-rice.html",
+    "language": "eng"
+  },
+  {
+    "id": 37,
+    "fakeornot": true,
+    "headline": "Public health officials in New Hampshire publicly admit that MMR vaccine causes measles",
+    "source": "Naturalnews",
+    "link": "https://www.naturalnews.com/2019-06-06-public-health-officials-admit-mmr-vaccine-causes-measles.html",
+    "language": "eng"
+  },
+  {
+    "id": 38,
+    "fakeornot": false,
+    "headline": "I Lived in Chernobyl to See if Nuclear Fallout Makes Fungus Grow Better",
+    "source": "Vice",
+    "link": "https://www.vice.com/en_us/article/nea9wx/i-lived-in-chernobyl-to-see-if-nuclear-fallout-makes-fungus-grow-better",
+    "language": "eng"
+  },
+  {
+    "id": 39,
+    "fakeornot": false,
+    "headline": "Man Arrested After Robbing Two Banks Using Nothing But an Avocado",
+    "source": "Vice",
+    "link": "https://www.vice.com/en_us/article/9kxg5v/man-arrested-after-robbing-two-banks-using-nothing-but-an-avocado",
+    "language": "eng"
+  },
+  {
+    "id": 40,
+    "fakeornot": false,
+    "headline": "Russia Is Making Its Own 'Chernobyl' Blaming America for the Whole Thing",
+    "source": "Vice",
+    "link": "https://www.vice.com/en_us/article/kzmpvw/russia-is-making-its-own-chernobyl-blaming-america-for-the-whole-thing",
+    "language": "eng"
+  },
+  {
+    "id": 41,
+    "fakeornot": false,
+    "headline": "The FBI Has Published Its Cache of Bigfoot Files",
+    "source": "Vice",
+    "link": "https://www.vice.com/en_us/article/wjv4kq/the-fbi-has-published-its-cache-of-bigfoot-files",
+    "language": "eng"
+  },
+  {
+    "id": 42,
+    "fakeornot": false,
+    "headline": "GREAT NEWS: You Can Now Pay $50 to Hang Out in a Cafe Full of Live Rats",
+    "source": "Vice",
+    "link": "https://www.vice.com/en_us/article/nea4xk/great-news-you-can-now-pay-dollar50-to-hang-out-in-a-cafe-full-of-live-rats",
+    "language": "eng"
+  },
+  {
+    "id": 43,
+    "fakeornot": false,
+    "headline": "Des chirurgiens australiens ont accidentellement mis le feu à un patient",
+    "source": "Vice fr",
+    "link": "https://www.vice.com/fr/article/bj95dz/des-chirurgiens-australiens-ont-accidentellement-mis-le-feu-a-un-patient",
+    "language": "fr"
+  },
+  {
+    "id": 44,
+    "fakeornot": false,
+    "headline": "Il y a 100 000 dollars à gagner si vous prouvez que vous avez des super-pouvoirs",
+    "source": "Vice fr",
+    "link": "https://www.vice.com/fr/article/eve4nm/il-y-a-100-000-dollars-a-gagner-si-vous-prouvez-que-vous-avez-des-super-pouvoirs",
+    "language": "fr"
+  },
+  {
+    "id": 45,
+    "fakeornot": false,
+    "headline": "Le vrai visage du Moyen-Orient",
+    "source": "Vice fr",
+    "link": "https://www.vice.com/fr/article/3k9kb3/le-vrai-visage-du-moyen-orient",
+    "language": "fr"
+  },
+  {
+    "id": 46,
+    "fakeornot": false,
+    "headline": "Elle réclame un test ADN pour identifier la colocataire qui lui a volé son yaourt",
+    "source": "Vice fr",
+    "link": "https://www.vice.com/fr/article/qvqe8b/elle-reclame-un-test-adn-pour-identifier-la-coloc-qui-lui-a-vole-son-yaourt",
+    "language": "fr"
+  },
+  {
+    "id": 47,
+    "fakeornot": false,
+    "headline": "À Tokyo, des humains paralysés contrôlent des robots-serveurs pour 8€/heure",
+    "source": "Vice fr",
+    "link": "https://www.vice.com/fr/article/xwj5z3/a-tokyo-des-humains-paralyses-controlent-des-robots-serveurs-pour-8euroheure",
+    "language": "fr"
+  },
+  {
+    "id": 48,
+    "fakeornot": false,
+    "headline": "Un homme blessé par l'explosion de sa Corona",
+    "source": "Vice fr",
+    "link": "https://www.vice.com/fr/article/j5ze3p/un-homme-blesse-par-lexplosion-de-sa-bouteille-de-corona",
+    "language": "fr"
+  },
+  {
+    "id": 49,
+    "fakeornot": false,
+    "headline": "Il neige des microplastiques dans les Pyrénées ariégeoises",
+    "source": "Konbini",
+    "link": "https://www.konbini.com/fr/politiqueetsociete/neige-microplastiques-pyrenees-ariegeoises",
+    "language": "fr"
+  },
+  {
+    "id": 50,
+    "fakeornot": false,
+    "headline": "Lacoste remplace son crocodile par des espèces en danger",
+    "source": "Konbini",
+    "link": "https://www.konbini.com/fr/lifestyle/crocodile-especes-danger",
+    "language": "fr"
+  },
+  {
+    "id": 51,
+    "fakeornot": false,
+    "headline": "Une fromagerie végane prend place dans un ancien abattoir",
+    "source": "Konbini",
+    "link": "https://www.konbini.com/fr/marche/une-fromagerie-vegane-prend-place-dans-un-ancien-abattoir",
+    "language": "fr"
+  },
+  {
+    "id": 52,
+    "fakeornot": false,
+    "headline": "J'ai failli perdre mon bébé à cause d'un bagel",
+    "source": "Closer",
+    "link": "https://www.closermag.fr/vecu/temoignages/j-ai-failli-perdre-mon-bebe-a-cause-d-un-bagel-886343",
+    "language": "fr"
+  },
+  {
+    "id": 53,
+    "fakeornot": true,
+    "headline": "États-Unis – Le congrès autorise le droit de grève en dehors des heures de travail",
+    "source": "Le Gorafi",
+    "link": "http://www.legorafi.fr/2019/06/03/etats-unis-le-congres-autorise-le-droit-de-greve-en-dehors-des-heures-de-travail/",
+    "language": "fr"
+  },
+  {
+    "id": 54,
+    "fakeornot": true,
+    "headline": "Manuel Valls a encore dit quelque chose",
+    "source": "Le Gorafi",
+    "link": "http://www.legorafi.fr/2018/05/30/manuel-valls-a-encore-dit-quelque-chose/",
+    "language": "fr"
+  },
+  {
+    "id": 55,
+    "fakeornot": true,
+    "headline": "La famille Rothschild est à la tête de la quasi-totalité des banques centrales de la planète.",
+    "source": "BNP paribas",
+    "link": "https://www.lemonde.fr/les-decodeurs/article/2019/02/18/quand-le-site-de-la-bnp-paribas-relaie-une-intox-antisemite-sur-les-rothschild_5424975_4355770.html",
+    "language": "fr"
+  },
+  {
+    "id": 56,
+    "fakeornot": true,
+    "headline": "Comment Internet modifie notre cerveau et nos interactions avec le monde..",
+    "source": "Moutons Enragés",
+    "link": "https://lesmoutonsenrages.fr/2019/06/09/comment-internet-modifie-notre-cerveau-et-nos-interactions-avec-le-monde/",
+    "language": "fr"
+  },
+  {
+    "id": 57,
+    "fakeornot": true,
+    "headline": "Is the world in curious shape?",
+    "source": "The Flat Earth Society",
+    "link": "https://www.theflatearthsociety.org/library/newspaperandmagazine/Is%20The%20World%20in%20Curious%20Shape%20(Schadewald).pdf",
+    "language": "eng"
+  },
+  {
+    "id": 58,
+    "fakeornot": true,
+    "headline": "Actor Who Portrayed The Night King Recalls Challenge Of Playing Character With No Purpose",
+    "source": "The Onion",
+    "link": "https://entertainment.theonion.com/actor-who-portrayed-the-night-king-recalls-challenge-of-1834899302",
+    "language": "eng"
+  },
+  {
+    "id": 59,
+    "fakeornot": true,
+    "headline": "Christian Bale Loses 40 Years For Upcoming Movie Role",
+    "source": "The Onion",
+    "link": "https://entertainment.theonion.com/christian-bale-loses-40-years-for-upcoming-movie-role-1833999023",
+    "language": "eng"
+  },
+  {
+    "id": 60,
+    "fakeornot": true,
+    "headline": "Grossed-Out Anti-Abortion Activist Has Change Of Heart After Seeing Picture Of Fetus For First Time\n",
+    "source": "The Onion",
+    "link": "https://local.theonion.com/grossed-out-anti-abortion-activist-has-change-of-heart-1833409223",
+    "language": "eng"
+  },
+  {
+    "id": 61,
+    "fakeornot": false,
+    "headline": "This Mom Is Asking For Advice After She Caught A Daycare Provider Breastfeeding Her Baby",
+    "source": "Buzzfeed",
+    "link": "https://www.buzzfeed.com/kristatorres/a-daycare-provider-was-secretly-breastfeeding-this-moms",
+    "language": "eng"
+  },
+  {
+    "id": 62,
+    "fakeornot": false,
+    "headline": "Love Island viewers are left baffled as Tommy Fury, 20, reveals he doesn't know how to make a cup of TEA",
+    "source": "Daily Mail",
+    "link": "https://www.dailymail.co.uk/tvshowbiz/article-7123095/Love-Island-fans-left-baffled-Tommy-Fury-20-reveals-doesnt-know-make-TEA.html",
+    "language": "eng"
+  },
+  {
+    "id": 63,
+    "fakeornot": true,
+    "headline": "Brexit summit to be less intellectually stimulating than Love Island",
+    "source": "Daily mash",
+    "link": "https://www.thedailymash.co.uk/politics/brexit-summit-to-be-less-intellectually-stimulating-than-love-island-20180706175106",
+    "language": "eng"
+  },
+  {
+    "id": 64,
+    "fakeornot": true,
+    "headline": "Millennial resigns herself to having 'plant babies'",
+    "source": "Daily mash",
+    "link": "https://www.thedailymash.co.uk/news/lifestyle/millennial-resigns-herself-to-having-plant-babies-20190516185661",
+    "language": "eng"
+  },
+  {
+    "id": 65,
+    "fakeornot": true,
+    "headline": "Woman ‘pregnant’ with 12 baby squid",
+    "source": "The Sun",
+    "link": "https://www.thesun.co.uk/archives/news/690486/woman-pregnant-with-12-baby-squid/",
+    "language": "eng"
+  },
+  {
+    "id": 66,
+    "fakeornot": true,
+    "headline": "Trump Fires Up Base With Call For Death Penalty For Suicide Bombers",
+    "source": "Breaking Burgh",
+    "link": "http://www.breakingburgh.com/trump-fires-base-call-death-penalty-suicide-bombers/",
+    "language": "eng"
+  },
+  {
+    "id": 67,
+    "fakeornot": false,
+    "headline": "Ed Sheeran performed to just one toddler at a festival when he was 15",
+    "source": "The Sun",
+    "link": "https://www.thesun.co.uk/tvandshowbiz/9258920/ed-sheeran-15-back-of-lorry-toddler-festival-throwback/",
+    "language": "eng"
+  },
+  {
+    "id": 68,
+    "fakeornot": false,
+    "headline": "My mum’s body was found in the sea without hair and eyes after she went missing on a date",
+    "source": "The Sun",
+    "link": "https://www.thesun.co.uk/news/9255553/our-mums-body-found-sea-went-missing-date-i-think-someone-killed-her/",
+    "language": "eng"
+  },
+  {
+    "id": 69,
+    "fakeornot": false,
+    "headline": "Good Job, Humans: Bees Are Making Nests Entirely Out of Plastic",
+    "source": "Vice",
+    "link": "https://www.vice.com/en_uk/article/43jq9m/bees-are-making-nests-entirely-out-of-plastic",
+    "language": "eng"
+  },
+  {
+    "id": 70,
+    "fakeornot": false,
+    "headline": "A Teen Hacked Apple Twice, Hoping They'd Give Him a Job",
+    "source": "Vice",
+    "link": "https://www.vice.com/en_uk/article/pajzjm/a-teen-hacked-apple-twice-hoping-theyd-give-him-a-job",
+    "language": "eng"
+  },
+  {
+    "id": 71,
+    "fakeornot": false,
+    "headline": "Snapchat Employees Abused Data Access to Spy on Users",
+    "source": "Vice",
+    "link": "https://www.vice.com/en_uk/article/xwnva7/snapchat-employees-abused-data-access-spy-on-users-snaplion",
+    "language": "eng"
+  },
+  {
+    "id": 72,
+    "fakeornot": false,
+    "headline": "The only child ever to be born in the Chernobyl exclusion approaches her 20th birthday and says she's 'doing well' despite living off fish and milk from irradiated streams and fields as a girl",
+    "source": "Daily Mail",
+    "link": "https://www.dailymail.co.uk/news/article-7121825/Only-child-born-raised-inside-Chernobyl-exclusion-zone-healthy-student-aged-19.html",
+    "language": "eng"
+  },
+  {
+    "id": 73,
+    "fakeornot": false,
+    "headline": "Doctor: Florida man Austin Harrouff believed he was ‘half-dog, half-man’ in face-biting double homicide",
+    "source": "The Ledger",
+    "link": "https://www.theledger.com/news/20190329/doctor-florida-man-austin-harrouff-believed-he-was-half-dog-half-man-in-face-biting-double-homicide",
+    "language": "eng"
+  },
+  {
+    "id": 74,
+    "fakeornot": false,
+    "headline": "10-Foot Alligator Takes Late-Night Stroll Across Florida Highway",
+    "source": "Geek .com",
+    "link": "https://www.geek.com/news/10-foot-alligator-takes-late-night-stroll-across-florida-highway-1788617/",
+    "language": "eng"
+  },
+  {
+    "id": 75,
+    "fakeornot": true,
+    "headline": "8 milliards de tonnes de fausse viande vendues en toute impunité depuis des années",
+    "source": "NordPresse",
+    "link": "https://nordpresse.be/76539-2/",
+    "language": "fr"
+  },
+  {
+    "id": 76,
+    "fakeornot": true,
+    "headline": "Les robots de cuisine vendus moins chers contiennent une caméra et un micro espion",
+    "source": "SecretNews",
+    "link": "http://secretnews.fr/2019/06/05/robots-cuisine-moins-chers-camera-micro-espion/",
+    "language": "fr"
+  },
+  {
+    "id": 77,
+    "fakeornot": true,
+    "headline": "Écologie: le drapeau français recouvre la fleur de lys en solidarité avec la marche pour le climat",
+    "source": "NordPresse",
+    "link": "https://nordpresse.be/ecologie-drapeau-francais-recouvre-fleur-de-lys-solidarite-marche-climat/",
+    "language": "fr"
+  },
+  {
+    "id": 78,
+    "fakeornot": true,
+    "headline": "Persuadée d’être la fille de Johnny, Une calaisienne de 23 ans demande l’exhumation du corps.",
+    "source": "NordPresse",
+    "link": "https://nordpresse.be/persuadee-detre-fille-de-johnny-calaisienne-de-23-ans-demande-lexhumation-corps/",
+    "language": "fr"
+  },
+  {
+    "id": 79,
+    "fakeornot": true,
+    "headline": "Décathlon crée une nouvelle polémique en commercialisant un pantacourt de running",
+    "source": "Le Gorafi",
+    "link": "http://www.legorafi.fr/2019/03/05/decathlon-cree-une-nouvelle-polemique-en-commercialisant-un-pantacourt-de-running/",
+    "language": "fr"
+  },
+  {
+    "id": 80,
+    "fakeornot": true,
+    "headline": "Il gagne son poids en papier toilette",
+    "source": "Calais Faits Divers",
+    "link": "https://calaisfaitsdivers.blogspot.com/2019/02/il-gagne-son-poids-en-papier-toilette.html",
+    "language": "fr"
+  },
+  {
+    "id": 81,
+    "fakeornot": false,
+    "headline": "Justin Bieber Challenges Tom Cruise to a Fight",
+    "source": "E! news",
+    "link": "https://www.eonline.com/videos/290439/justin-bieber-challenges-tom-cruise-to-a-fight",
+    "language": "eng"
+  },
+  {
+    "id": 82,
+    "fakeornot": true,
+    "headline": "California to offer illegals free health care by fining residents",
+    "source": "Infowars",
+    "link": "https://www.infowars.com/california-to-offer-illegals-free-health-care-by-fining-residents/",
+    "language": "eng"
+  },
+  {
+    "id": 83,
+    "fakeornot": true,
+    "headline": "Decathlon, à fond l’islamisation",
+    "source": "24heuresactu",
+    "link": "https://24heuresactu.com/2019/02/27/decathlon-a-fond-lislamisation/",
+    "language": "fr"
+  },
+  {
+    "id": 84,
+    "fakeornot": true,
+    "headline": "Comment préserver la glande pinéale qui est le troisième oeil ?",
+    "source": "espritsciencemetaphysiques",
+    "link": "https://www.espritsciencemetaphysiques.com/comment-preserver-glande-pineale-troisieme-oeil.html",
+    "language": "fr"
+  },
+  {
+    "id": 85,
+    "fakeornot": false,
+    "headline": "Tous les proches du défunt reçoivent des amendes pour stationnement interdit lors de l'enterrement",
+    "source": "Closer",
+    "link": "https://www.closermag.fr/insolite/a-cagnes-sur-mer-tout-le-cortege-recoit-des-pv-pour-stationnement-interdit-lors-956474",
+    "language": "fr"
+  },
+  {
+    "id": 86,
+    "fakeornot": false,
+    "headline": "Bretagne : un élu demande aux bars de ne plus servir d'alcool aux agents",
+    "source": "Le Point",
+    "link": "https://www.lepoint.fr/insolite/bretagne-un-elu-demande-aux-bars-de-ne-plus-servir-d-alcool-aux-agents-06-06-2019-2317440_48.php",
+    "language": "fr"
+  },
+  {
+    "id": 87,
+    "fakeornot": true,
+    "headline": "Efficiency Win: Heinz Has Eliminated All Their Executive Positions After Realizing All They Need Is A Couple Factory Guys To Make Ketchup",
+    "source": "Clickhole",
+    "link": "https://www.clickhole.com/efficiency-win-heinz-has-eliminated-all-their-executiv-1834414265",
+    "language": "eng"
+  },
+  {
+    "id": 88,
+    "fakeornot": true,
+    "headline": "Absolutely Infuriating: George R.R. Martin Wasted Time Eating Dinner Instead Of Writing His Next Book",
+    "source": "Clickhole",
+    "link": "https://lifestyle.clickhole.com/absolutely-infuriating-george-r-r-martin-wasted-time-1834001558",
+    "language": "eng"
+  },
+  {
+    "id": 89,
+    "fakeornot": true,
+    "headline": "Pour faire du Made in France, l’entreprise fonde la ville de France, en Chine",
+    "source": "Franchetvinfo",
+    "link": "http://franchetvinfo.fr/pour-faire-du-made-in-france-lentreprise-fonde-la-ville-de-france-en-chine/?fbclid=IwAR1mxL9hOtBxHcwydNkygL1SC-QLj1ODSLPB4n_8Q37TcZSULo06cWsfut8",
+    "language": "eng"
+  },
+  {
+    "id": 90,
+    "fakeornot": false,
+    "headline": "Meurthe-et-Moselle : ivres, ils pêchent des carpes koï dans un magasin d’horticulture",
+    "source": "actu.fr",
+    "link": "https://actu.fr/faits-divers/les-10-faits-divers-plus-insolites-2018-sur-lorraine-actu_20564967.html",
+    "language": "fr"
+  },
+  {
+    "id": 91,
+    "fakeornot": false,
+    "headline": "Bored father invents device allowing parents to feed babies whilst using smartphones",
+    "source": "telegraph",
+    "link": "https://www.telegraph.co.uk/family/parenting/bored-father-invents-device-allowing-parents-to-feed-babies-whil/",
+    "language": "eng"
+  },
+  {
+    "id": 92,
+    "fakeornot": true,
+    "headline": "Obamas Sign Podcast Deal With Spotify",
+    "source": "The Onion",
+    "link": "https://www.theonion.com/obamas-sign-podcast-deal-with-spotify-1835414111",
+    "language": "eng"
+  }
+]

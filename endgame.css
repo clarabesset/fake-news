@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+
+html,
+body {
+  background-color: #151515;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.restart a {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding: 5px;
+}
+
+.endMessage {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  width: 1100px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.gif img {
+  margin: 0 auto;
+  height: 280px;
+}
+
+.textEnd {
+  width: 400px;
+  height: 258px;
+  border: 2px dashed white;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+}
+
+.bigContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 70px;
+  color: #73f440;
+  text-shadow: 4px 4px 4px red;
+  padding: 0;
+  margin: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 160;
+  letter-spacing: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  width: 100%;
+}
+
+.titleContainer {
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.chooseLang {
+  padding: 20px 0;
+  align-self: center;
+}
+
+button {
+  font-size: 18px;
+  text-align: center;
+}
+
+.real {
+  border: solid 2px#ACF596;
+}
+
+.fake {
+  border: solid 2px #ff8e8e;
+}
+
+a {
+  left: 20px;
+  bottom: 10px;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+#test {
+  padding: 30px;
+  font-size: 40px;
+  line-height: 45px;
+  color: white;
+  font-weight: lighter;
+}
+
+.red a {
+  color: #f16c6c;
+  text-decoration-color: #f16c6c;
+  text-decoration-line: underline;
+}
+
+.green a {
+  color: #acf596;
+  text-decoration-color: #acf596;
+  text-decoration-line: underline;
+  line-height: normal;
+}
+
+#scoreDiv {
+  height: 40px;
+  width: 245px;
+  border: 4px #73f440;
+  padding: 5px;
+  font-family: system-ui;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  border: 2px outset white;
+  margin-bottom: 30px;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+#playAgain {
+  height: 60px;
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  font-style: italic;
+  color: white;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 0px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 160;
+  letter-spacing: 5px;
+  padding: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: solid 2px white;
+  background: transparent;
+  color: #fff;
+}
+
+.btn,
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 20px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 160;
+  letter-spacing: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover,
+input[type="submit"]:hover {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn a:hover {
+  color: #1f1f1f;
+}
+
+.btn:hover {
+  border: solid 2px #fff;
+  background: #fff;
+}

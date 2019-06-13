@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+
+html,
+body {
+  background-color: #151515;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0 auto;
+}
+
+.bigContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 70px;
+  color: #73f440;
+  text-shadow: 4px 4px 4px red;
+  padding-left: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 160;
+  letter-spacing: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+  width: 100%;
+  margin-left: 80px;
+}
+
+.titleContainer {
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.chooseLang {
+  padding: 20px 0;
+  align-self: center;
+}
+
+button {
+  font-size: 18px;
+  text-align: center;
+}
+
+.real {
+  border: solid 2px#ACF596;
+}
+
+.fake {
+  border: solid 2px #ff8e8e;
+}
+
+a {
+  left: 20px;
+  bottom: 10px;
+  text-decoration: none;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  width: 1100px;
+  height: 300px;
+  border: dashed 2px white;
+}
+
+#next {
+  height: 150px;
+  width: 150px;
+  background-image: url("arrow.png");
+  border: 4px #73f440;
+  background-color: #151515;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+#test {
+  padding: 30px;
+  font-size: 40px;
+  line-height: 45px;
+  color: white;
+  font-weight: lighter;
+}
+
+.red a {
+  color: #f16c6c;
+  text-decoration-color: #f16c6c;
+  text-decoration-line: underline;
+}
+
+.green a {
+  color: #acf596;
+  text-decoration-color: #acf596;
+  text-decoration-line: underline;
+  line-height: normal;
+}
+
+#scoreDiv {
+  height: 100px;
+  width: 180px;
+  color: #fff;
+  border: 4px #73f440;
+  margin: 70px 30px 30px 50px;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#turnDiv {
+  height: 110px;
+  width: 110px;
+  text-align: center;
+  align-self: center;
+  margin: 70px 30px 30px 10px;
+  border-radius: 100%;
+  font-size: 30px;
+  font-family: system-ui;
+  font-weight: 500;
+  color: #acf596;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  font-family: "Courier New", Courier, monospace;
+  margin: 40px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background: transparent;
+  color: #fff !important;
+  outline: none;
+}
+
+.btn,
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 20px 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 160;
+  letter-spacing: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover,
+input[type="submit"]:hover {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn {
+  background: transparent;
+  color: #fff !important;
+}
+
+.btn.fake:hover {
+  border: solid 2px red;
+  background: #f16c6c;
+  color: #1f1f1f !important;
+}
+
+.btn.real:hover {
+  border: solid 2px #73f440;
+  background: #acf596;
+  color: #1f1f1f !important;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "fakenews",
+  "version": "1.0.0",
+  "description": "Fake news Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarabesset/fakenews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarabesset/fakenews/issues"
+  },
+  "homepage": "https://github.com/clarabesset/fakenews#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
