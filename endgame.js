@@ -1,9 +1,23 @@
 let thisScore = localStorage.getItem("score");
 document.querySelector("#scoreDiv").innerHTML = `SCORE : ${thisScore}`;
 
-window.onload = function() {
-  document.getElementById("my_audio").play();
-};
+if (thisScore < 4) {
+  window.onload = function() {
+    document.getElementById("hurt").play();
+  };
+} else if (thisScore < 8) {
+  window.onload = function() {
+    document.getElementById("work").play();
+  };
+} else if (thisScore < 12) {
+  window.onload = function() {
+    document.getElementById("runaway").play();
+  };
+} else if (thisScore == 12) {
+  window.onload = function() {
+    document.getElementById("mario").play();
+  };
+}
 
 var gifs = [
   {
