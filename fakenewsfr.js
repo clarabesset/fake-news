@@ -79,13 +79,7 @@ axios
 
     function goEnd() {
       localStorage.setItem("score", score);
-      if (score <= 3) {
-        window.location.href = "endgamebof.html";
-      } else if (score <= 7) {
-        window.location.href = "endgameok.html";
-      } else if (score <= 12) {
-        window.location.href = "endgamegreat.html";
-      }
+      window.location.href = "endgame.html";
     }
 
     if (turn > 11) {
