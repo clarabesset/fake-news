@@ -71,7 +71,6 @@ axios
 
       document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
       if (turn > 11) {
-        document.getElementById("next").classList.add("nextOff");
         goEnd();
       }
 
@@ -85,10 +84,8 @@ axios
     nextButton.onclick = nextGame;
 
     function goEnd() {
-      setTimeout(() => {
-        localStorage.setItem("score", score);
-        window.location.href = "endgame.html";
-      }, 3000);
+      localStorage.setItem("score", score);
+      window.location.href = "endgame.html";
     }
   })
 

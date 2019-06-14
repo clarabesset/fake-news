@@ -29,7 +29,7 @@ axios
             "<a href='" +
             randomLink +
             "' target= '_blank'>" +
-            "Eh oui c'est vrai".italics() +
+            "That is true...".italics() +
             "</a>";
         } else {
           document.getElementById("test").classList.add("red");
@@ -38,7 +38,7 @@ axios
             "<a href='" +
             randomLink +
             "' target= '_blank'>" +
-            "Non, intox t'es ouf".italics() +
+            "Nah that's fake mate".italics() +
             "</a>";
         }
         document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
@@ -54,7 +54,7 @@ axios
             "<a href='" +
             randomLink +
             "' target= '_blank'>" +
-            "Oui bon gros fake".italics() +
+            "Indeed that's super fake".italics() +
             "</a>";
         } else {
           document.getElementById("test").classList.add("red");
@@ -63,7 +63,7 @@ axios
             "<a href='" +
             randomLink +
             "' target= '_blank'>" +
-            "C'est vrai déso :(".italics() +
+            "I'm so sorry that's true".italics() +
             "</a>";
         }
         document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
@@ -71,7 +71,6 @@ axios
 
       document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
       if (turn > 11) {
-        document.getElementById("next").classList.add("nextOff");
         goEnd();
       }
 
@@ -85,10 +84,8 @@ axios
     nextButton.onclick = nextGame;
 
     function goEnd() {
-      setTimeout(() => {
-        localStorage.setItem("score", score);
-        window.location.href = "endgame.html";
-      }, 3000);
+      localStorage.setItem("score", score);
+      window.location.href = "endgame.html";
     }
   })
 

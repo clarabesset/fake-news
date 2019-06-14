@@ -107,6 +107,14 @@ a {
   display: none !important;
 }
 
+#realbutton.btnOff {
+  display: none !important;
+}
+
+#fakebutton.btnOff {
+  display: none !important;
+}
+
 p {
   margin: 0;
 }
