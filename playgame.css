@@ -103,6 +103,10 @@ a {
   margin-top: 10px;
 }
 
+#next.nextOff {
+  display: none !important;
+}
+
 p {
   margin: 0;
 }
@@ -143,6 +147,7 @@ p {
 #turnDiv {
   height: 110px;
   width: 110px;
+  padding-top: 5px;
   text-align: center;
   align-self: center;
   margin: 70px 30px 30px 10px;

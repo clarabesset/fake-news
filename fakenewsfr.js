@@ -1,11 +1,15 @@
 var score = 0;
-var turn = 0;
+// var turn = 0;
 
 axios
   .get("fakenewsdb.json")
   .then(res => {
     var newsFr = [];
+    var turn = 0;
+
+    nextGame();
     function nextGame() {
+      document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
       res.data.filter(oneData => {
         if (oneData.language == "fr") {
           newsFr.push(oneData);
@@ -17,7 +21,6 @@ axios
       var randomLink = newsFr[randomIndex].link;
       function checkTrue() {
         turn++;
-        if (turn > 11) goEnd();
         if (newsFr[randomIndex].fakeornot === false) {
           score++;
           document.getElementById("scoreDiv").innerHTML = `SCORE : ${score}`;
@@ -44,7 +47,6 @@ axios
 
       function checkFake() {
         turn++;
-        if (turn > 11) goEnd();
         if (newsFr[randomIndex].fakeornot === true) {
           score++;
           document.getElementById("test").classList.add("green");
@@ -68,25 +70,30 @@ axios
         document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
       }
 
+      console.log("ici", turn);
+      document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+      if (turn > 11) {
+        console.log("ici ajoute class");
+        document.getElementById("next").classList.add("nextOff");
+        goEnd();
+      }
+
       var realButton = document.getElementById("realbutton");
       realButton.onclick = checkTrue;
       var fakeButton = document.getElementById("fakebutton");
       fakeButton.onclick = checkFake;
-      var nextButton = document.getElementById("next");
-      nextButton.onclick = nextGame;
     }
 
+    var nextButton = document.getElementById("next");
+    nextButton.onclick = nextGame;
+
     function goEnd() {
+      console.log("ici endgame");
       setTimeout(() => {
         localStorage.setItem("score", score);
         window.location.href = "endgame.html";
-      }, 3000);
-    }
-
-    if (turn > 12) {
-      goEnd;
-    } else {
-      nextGame();
+        console.log("ici endgame");
+      }, 1000);
     }
   })
 
@@ -95,4 +102,3 @@ axios
   });
 
 document.getElementById("scoreDiv").innerHTML = `SCORE : ${score}`;
-document.getElementById("turnDiv").innerHTML = `${turn}/12`;

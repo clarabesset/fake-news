@@ -84,7 +84,7 @@ axios
       }, 3000);
     }
 
-    if (turn > 12) {
+    if (turn > 11) {
       goEnd;
     } else {
       nextGame();
