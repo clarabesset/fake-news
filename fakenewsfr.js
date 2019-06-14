@@ -1,5 +1,4 @@
 var score = 0;
-// var turn = 0;
 
 axios
   .get("fakenewsdb.json")
@@ -70,10 +69,8 @@ axios
         document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
       }
 
-      console.log("ici", turn);
       document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
       if (turn > 11) {
-        console.log("ici ajoute class");
         document.getElementById("next").classList.add("nextOff");
         goEnd();
       }
@@ -88,12 +85,10 @@ axios
     nextButton.onclick = nextGame;
 
     function goEnd() {
-      console.log("ici endgame");
       setTimeout(() => {
         localStorage.setItem("score", score);
         window.location.href = "endgame.html";
-        console.log("ici endgame");
-      }, 1000);
+      }, 3000);
     }
   })
 

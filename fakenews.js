@@ -1,11 +1,14 @@
 var score = 0;
-var turn = 0;
 
 axios
   .get("fakenewsdb.json")
   .then(res => {
     var newsEng = [];
+    var turn = 0;
+
+    nextGame();
     function nextGame() {
+      document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
       res.data.filter(oneData => {
         if (oneData.language == "eng") {
           newsEng.push(oneData);
@@ -17,7 +20,6 @@ axios
       var randomLink = newsEng[randomIndex].link;
       function checkTrue() {
         turn++;
-        if (turn > 11) goEnd();
         if (newsEng[randomIndex].fakeornot === false) {
           score++;
           document.getElementById("scoreDiv").innerHTML = `SCORE : ${score}`;
@@ -27,7 +29,7 @@ axios
             "<a href='" +
             randomLink +
             "' target= '_blank'>" +
-            "Yes that's a real thing".italics() +
+            "Eh oui c'est vrai".italics() +
             "</a>";
         } else {
           document.getElementById("test").classList.add("red");
@@ -36,15 +38,14 @@ axios
             "<a href='" +
             randomLink +
             "' target= '_blank'>" +
-            "Nope, that was fake, are you kidding".italics() +
+            "Non, intox t'es ouf".italics() +
             "</a>";
         }
-        document.getElementById("turnDiv").innerHTML = `${turn}/12`;
+        document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
       }
 
       function checkFake() {
         turn++;
-        if (turn > 11) goEnd();
         if (newsEng[randomIndex].fakeornot === true) {
           score++;
           document.getElementById("test").classList.add("green");
@@ -53,9 +54,8 @@ axios
             "<a href='" +
             randomLink +
             "' target= '_blank'>" +
-            "Yes that's super fake".italics() +
+            "Oui bon gros fake".italics() +
             "</a>";
-          document.getElementById("scoreDiv").innerHTML = `SCORE : ${score}`;
         } else {
           document.getElementById("test").classList.add("red");
           document.getElementById("test").classList.remove("green");
@@ -63,31 +63,32 @@ axios
             "<a href='" +
             randomLink +
             "' target= '_blank'>" +
-            "Nah that's real unfortunately".italics() +
+            "C'est vrai déso :(".italics() +
             "</a>";
         }
-        document.getElementById("turnDiv").innerHTML = `${turn}/12`;
+        document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+      }
+
+      document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+      if (turn > 11) {
+        document.getElementById("next").classList.add("nextOff");
+        goEnd();
       }
 
       var realButton = document.getElementById("realbutton");
       realButton.onclick = checkTrue;
       var fakeButton = document.getElementById("fakebutton");
       fakeButton.onclick = checkFake;
-      var nextButton = document.getElementById("next");
-      nextButton.onclick = nextGame;
     }
+
+    var nextButton = document.getElementById("next");
+    nextButton.onclick = nextGame;
 
     function goEnd() {
       setTimeout(() => {
         localStorage.setItem("score", score);
         window.location.href = "endgame.html";
       }, 3000);
-    }
-
-    if (turn > 11) {
-      goEnd;
-    } else {
-      nextGame();
     }
   })
 
@@ -96,4 +97,3 @@ axios
   });
 
 document.getElementById("scoreDiv").innerHTML = `SCORE : ${score}`;
-document.getElementById("turnDiv").innerHTML = `${turn}/12`;
