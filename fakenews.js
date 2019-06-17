@@ -48,6 +48,7 @@ axios
         turn++;
         if (newsEng[randomIndex].fakeornot === true) {
           score++;
+          document.getElementById("scoreDiv").innerHTML = `SCORE : ${score}`;
           document.getElementById("test").classList.add("green");
           document.getElementById("test").classList.remove("red");
           document.getElementById("test").innerHTML =
