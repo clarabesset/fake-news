@@ -8,7 +8,7 @@ axios
 
     nextGame();
     function nextGame() {
-      document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+      document.getElementById("turnDiv").innerHTML = `${turn}/12`;
       res.data.filter(oneData => {
         if (oneData.language == "eng") {
           newsEng.push(oneData);
@@ -41,7 +41,7 @@ axios
             "Nah that's fake mate".italics() +
             "</a>";
         }
-        document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+        document.getElementById("turnDiv").innerHTML = `${turn}/12`;
       }
 
       function checkFake() {
@@ -67,10 +67,10 @@ axios
             "I'm so sorry that's true".italics() +
             "</a>";
         }
-        document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+        document.getElementById("turnDiv").innerHTML = `${turn}/12`;
       }
 
-      document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+      document.getElementById("turnDiv").innerHTML = `${turn}/12`;
       if (turn > 11) {
         goEnd();
       }

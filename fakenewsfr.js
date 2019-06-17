@@ -8,7 +8,7 @@ axios
 
     nextGame();
     function nextGame() {
-      document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+      document.getElementById("turnDiv").innerHTML = `${turn}/12`;
       res.data.filter(oneData => {
         if (oneData.language == "fr") {
           newsFr.push(oneData);
@@ -41,7 +41,7 @@ axios
             "Non, intox t'es ouf".italics() +
             "</a>";
         }
-        document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+        document.getElementById("turnDiv").innerHTML = `${turn}/12`;
       }
 
       function checkFake() {
@@ -67,10 +67,10 @@ axios
             "C'est vrai déso :(".italics() +
             "</a>";
         }
-        document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+        document.getElementById("turnDiv").innerHTML = `${turn}/12`;
       }
 
-      document.getElementById("turnDiv").innerHTML = `TURN ${turn}/12`;
+      document.getElementById("turnDiv").innerHTML = `${turn}/12`;
       if (turn > 11) {
         goEnd();
       }
